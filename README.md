@@ -26,6 +26,11 @@
 
 使用这个CSS，可以用来写word中带序号的标题文档了
 
+2. github2.css
+
+这个 CSS 文件是基于 typora 软件来使用的，里面实现了标题的编号，正文首行缩进暂时没有实现。
+
+
 ## 原理
 
 ### 标题的编号
@@ -44,10 +49,15 @@
 
 ## 使用方法
 
-### LiteIDE编辑器
+### LiteIDE 编辑器
 
 1. 将指定的CSS文件拷贝到LiteIDE的安装目录中`liteide\share\liteide\markdown\css`
 - 使用LiteIDE编写Markdown文件，在预览的时候选择指定的页面样式即可
+
+### Typora 编辑器
+
+1. 打开 Typora，点击菜单栏 File -> Preferences -> Custom Themes -> Open Themes Folder
+2. 将 github2.css 文件拷贝到 Themes Folder 里面，重启 Typora 软件即可在菜单栏的 Themes 里面选择该样式
 
 ## 后续想实现的功能
 
